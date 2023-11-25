@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <style>
+        .heading{
+            font-family: 'Tilt Prism', cursive;
+            text-align: center;
+            color:brown;
+            background-color: rgb(85, 210, 200);
+            border: 10px dashed green;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        .form{
+            font-size: x-large;
+            padding-top: 5%;
+            height: 400px;
+            background-color: blueviolet;
+            margin-left: 25%;
+            margin-right: 25%;
+            border: 10px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            margin-top: 5%;
+            text-align: center;
+            
+        };
+        input[type=text]{
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid #eee;
+            box-shadow: 0 0 15px 4px rgba(0,0,0,0,06);
+            border-radius: 10px;
+            width: 50%;
+        }
+        .button-5 {
+            align-items: center;
+            background-clip: padding-box;
+            background-color: #fa6400;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 1.25;
+            margin: 0;
+            min-height: 3rem;
+            padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+            position: relative;
+            text-decoration: none;
+            transition: all 250ms;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: baseline;
+            width: auto;
+        }
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+        
+    </style>
+</head>
+<body>
+    <div class="heading">
+    <h1>NUMBER  TRACKER</h1>
+    </div>
+    <div class="form">
+    <form action="/" method="post">
+        <label for="pno" style="color: rgb(225, 246, 35);font-family: 'Tilt Prism', cursive;font-style: italic;">Enter a valid Number for details with country code</label><br><br><br>
+        <input type="text" name="pno" style="padding: 10px;
+        margin: 10px;
+        border: 2px solid #eee;
+        box-shadow: 0 0 15px 4px rgba(0,0,0,0,06);
+        border-radius: 10px;
+        font-weight: bold;
+        width: 50%;"><br><br>
+        <input type="checkbox" ><strong>Iunderstand that this application is only for educational purpose</strong></input><br><br>
+        <button type="submit" class="button-5">Submit</button>
+    </form>
+</div>
+</body>
+</html>
